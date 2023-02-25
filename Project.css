@@ -1,0 +1,424 @@
+		
+		body{
+			background-color: #fff;
+			max-width: 100%;
+			overflow-x: hidden;
+			max-height: 100%;
+			position: relative;
+			margin: 0px;
+			padding: 0px;
+			font-family: sans-serif;
+			font-weight: normal;
+		}
+		header{
+			width: 50px;
+			height: 50px;
+			color: #fff;
+			font-size: 25px;
+			padding-top: 25px;
+			padding-left: 90px;
+			color: #fff;
+			/*left: 300px;*/
+		}
+		.top{
+			background-image: url("./images/head.jpg");
+		}
+		nav{
+			background-image: url("./images/head.jpg");
+			background-size: cover;
+			position: fixed;
+			width: 100%;
+			height: 60px;
+			font-size: 15px;
+			z-index: 9;
+			margin-top: 10px;
+			opacity: 0.9;
+		}
+		.ag{
+			display: flex;
+			position: fixed;
+			box-shadow: 0px;
+			top: 20px;
+			left: 520px;
+			font-size: 14px;
+			text-decoration: none;
+			list-style-type: none;
+		}
+		.b{
+			background-color: red;
+			color: #fff;
+			position: absolute;
+			left: 580px;
+			width: 120px;
+			top: 8px;
+			line-height: 35px;
+			font-size: 15px;
+			padding-left: 10px;
+			border-radius: 40px;
+			text-align: center;
+			text-decoration: none;
+		}
+		.b:hover{
+			background-color: #000;
+		}
+		.a:hover{
+			color: red;
+		}
+		.a{
+			color: #fff;
+			text-decoration: none;
+			margin: 4px;
+			/*padding-top: 30px;*/
+		}
+		.joy{
+			color: #fff;
+			width: 600px;
+			height: 240px;
+			position: absolute;
+			/*background-color: blue;*/
+			top: 200px;
+			left: 100px;
+			font-size: 50px;
+		}
+		.c{
+			background-image: #000;
+			color: #fff;
+			position: absolute;
+			left: 10px;
+			width: 160px;
+			top: 150px;
+			line-height: 50px;
+			font-size: 15px;
+			padding-left: 10px;
+			text-align: center;
+			border-radius: 40px;
+			border: solid;
+			text-decoration: none;
+		}
+		.c:hover{
+			background-image: url("./images/new.jpg");
+		}
+		.call{
+			left: 210px;
+			position: absolute;
+			font-size: 17px;
+			top: 155px;
+		}
+		article{
+			/*background-color: green;*/
+			width: 100%;
+			height: 600px;
+			/*display: flex;*/
+			position: relative;
+			top: 135px;
+		}
+		.art{
+			position: absolute;
+			top: 5px;
+		}
+		.auto{
+			font-family: sans-serif;
+			font-size: 30px;
+			color: red;
+		}	
+		.w{
+			width: 400px;
+			margin-left: 150px;
+			padding-top: 20px;
+			font-family: cursive;
+			/*padding-bottom: 30px;*/
+		}
+		.xy{
+			position: absolute;
+			top: 130px;
+		}
+		.x{
+			color: purple;
+			font-size: 60px;
+			position: absolute;
+			top: 5px;
+		}
+		.h{
+			height: 400px;
+			width: 300px;
+			position: absolute;
+			left: 800px;
+			top: 40px;
+			border-radius: 30px;
+			/*float: right;*/
+		}
+		.wrapper{
+			position: absolute;
+			width: 100%;
+		}
+
+		section{
+			background-image: url("./images/wen.jpg");
+			background-size: cover;
+			width: 100%;
+			height: 950px;
+			position: relative;
+			top: 100px;
+
+		}
+		.cont1{
+			/*background-color: green;*/
+			width: 1260px;
+			height: 430px;
+			position: absolute;
+			left: 50px;
+			display: flex;
+			flex-direction: row;
+			top: 60px;
+			justify-content: center;
+			margin: 15px;
+		}
+		.cont2{
+			/*background-color: green;*/
+			width: 1260px;
+			height: 410px;
+			position: absolute;
+			left: 50px;
+			top: 460px;
+			display: flex;
+			flex-direction: row;
+			justify-content: center;
+			margin: 15px;
+		}
+		.item1{
+			background-color: #fff;
+			margin: 30px;
+			height: 350px;
+			width: 520px;
+			margin-left: -20px;
+		}
+		.item2{
+			background-color: #fff;
+			margin: 30px;
+			height: 350px;
+			width: 520px;
+		}
+		.item3{
+			background-color: #fff;
+			margin: 30px;
+			height: 350px;
+			width: 520px;
+			margin-left: -20px;
+		}
+		.item4{
+			background-color: #fff;
+			margin: 30px;
+			height: 350px;
+			width: 520px;
+		}
+		.six{
+			position: relative;
+			/*background-color: #000;*/
+			height: 200px;
+			/*z-index: 1; */
+			margin-left: 290px;
+			margin-top: 50px;
+			margin-right: 20px;
+		}
+		.img{
+			height: 350px;
+			width: 260px;
+			float: left;
+			/*z-index: 2;*/
+			/*transition: background-color 1s;*/
+		}
+		.jpg:hover{
+			background-color: red;
+		}
+		.f{
+			position: absolute;
+			background-image: url("./images/wen.jpg");
+			/*background-color: red;*/
+			border-radius: 30px;
+			padding: 20px;
+			border: none;
+			font-size: 15px;
+			color: #000;
+			line-height: 0px;
+			text-decoration: none;
+		}
+		.f:hover{
+			background-color: red;
+			background-image: url("./images/new.jpg");
+			background-size: cover;
+			color: #fff;
+		}
+		figure{
+			/*background-color: blue;*/
+			/*background-image: url("./images/omg.jpg");*/
+			text-align: center;
+			height: 480px;
+			width: 100%;
+			/*padding-top: -150px;*/
+			/*margin: none;*/
+			position: relative;
+			left: -10px;
+			top: 100px;
+			/*justify-content: center;*/
+		}
+		.fig{
+			/*background-color: red;*/
+			width: 1290px;
+			height: 300px;
+			position: absolute;
+			top: 80px;
+			left: 20px;
+			display: flex;
+			justify-content: center;
+			/*margin-top: -5px;*/
+			/*z-index: 1;*/
+		}
+		.jpg{
+			width: 260px;
+			height: 250px;
+			opacity: 0.9;
+			/*margin-left: 25px;*/
+			/*position: absolute;*/
+			/*padding-top: 80px;*/
+			z-index: 1;
+		}
+		.zuma{
+			width: 270px;
+			height: 260px;
+			margin: 20px;
+			/*position: absolute;*/
+			/*display: flex;*/
+			/*direction: column;*/
+		}
+		.zuma:hover{
+			background-color: red;
+		}
+		form{
+			/*background-color: blue;*/
+			background-image: url("./images/omg.jpg");
+			opacity: 0.8;
+			background-size: cover;
+			height: 500px;
+			width: 100%;
+			position: relative;
+			/*top: 100px;*/
+		}
+		.group{
+			width: 1100px;
+			height: 500px;
+			/*background-color: blue;*/
+			/*position: relative;*/
+			position: relative;
+			left: 130px;
+			top: 40px;
+		}
+		.form-group{
+			width: 800px;
+			height: 100px;
+			
+		}
+		input{
+			height: 38px;
+			width: 280px;
+			padding: 10px;
+			margin: 7px;
+			border-radius: 10px;
+			border: none;
+		}
+		.requirements{
+			/*background-color: green;*/
+			width: 600px;
+			height: 160px;
+			position: absolute;
+			top: 200px;
+			border-radius: 10px;
+			border: none;
+			/*text-align: top;*/
+		}
+		button{
+			background-color: red;
+			width: 160px;
+			height: 50px;
+			border-radius: 30px;
+			border: none;
+			font-size: 13px;
+			font-weight: bolder;
+			text-align: center;
+			color: #fff;
+			position: absolute;
+			top: 400px;
+		}
+		/*.di{
+			float: right;
+			z-index: 3;
+    		position: absolute;
+    		height: 100%;
+    		width: 100%;
+    		padding: 0px;
+    		border-width: 0px;
+    		margin: 0px;
+    		right: 00px;
+    		top: 180px;
+		}*/
+		.cap{
+			text-align: center;
+			font-size: 30px;
+			color: #000;
+			padding-top: 25px;
+			text-decoration: none; 
+		}
+		.capp{
+			text-align: center;
+			font-size: 30px;
+			color: #fff;
+		}
+		footer{
+			background-image: url("./images/newd.jpg");
+			opacity: 0.8;
+			background-size: cover;
+			background-attachment: scroll;
+			color: #fff;
+			height: 300px;
+			width: 100%;
+			position: relative;
+		}
+		.john{
+			/*background-color: red;*/
+			width: 1290px;
+			height: 200px;
+			position: absolute;
+			top: 10px;
+			display: flex;
+			justify-content: center;
+		}
+		.sex{
+			margin: 20px;
+		}
+		.r{
+			text-decoration: none;
+			color: #fff;
+		}
+		.contain{
+			background-image: url("./images/head.jpg");
+			/*background-color:  rgba(40, 40, 40, 0.7);*/
+			/*opacity: 4.9;*/
+			background-size: cover;
+			background-attachment: scroll;
+			width: 100%;
+			top: -5px;
+			height: 625px;
+			color: #fff;
+			font-size: 30px;
+			padding-top: 40px;
+			padding-left: 90px;
+			position: relative;
+			/*z-index: 5;*/
+		}
+	
+			/*tablet*/
+
+@media screen and (min-width: 400px){
+	body{
+		/*background-color: red;*/
+	}
+}
